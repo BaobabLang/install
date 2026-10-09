@@ -14,7 +14,7 @@
 
 [🌐 Site officiel](https://baobablang.dev) •
 [📚 Documentation](https://baobablang.dev/docs) •
-[💻 Studio en ligne](https://baobablang.dev) •
+[💻 Studio en ligne](https://baobablang.dev/ide) •
 [📦 PyPI](https://pypi.org/project/baobab-lang/)
 
 </div>
@@ -124,6 +124,7 @@ bao format programme.bao
 bao test tests/
 ```
 
+> Pour plus de détails, consultez : https://baobablang.dev/docs/cli
 ---
 
 ## Exemples de code
@@ -288,7 +289,7 @@ afficher("Nombre aléatoire :", nombre)
 ## Extension VS Code
 
 L'extension Baobab pour VS Code ajoute la coloration syntaxique, les snippets
-et le bouton ▶ pour exécuter directement depuis l'éditeur.
+et le bouton ⚡ pour exécuter directement depuis l'éditeur.
 
 **Installer depuis VS Code :**
 
@@ -302,7 +303,7 @@ code --install-extension baobablang.baobab-lang
 
 Fonctionnalités :
 - 🎨 Coloration syntaxique complète
-- ▶️ Bouton Run (Cmd+F5) - supporte `lire()` interactif
+- ⚡️ Bouton Run (Cmd+F5) - supporte `lire()` interactif
 - 📝 22 snippets (`fonction`, `si`, `pour`, `classe`...)
 - ⚙️ Indentation automatique, repli de code
 
@@ -310,7 +311,7 @@ Fonctionnalités :
 
 ## Studio en ligne
 
-Essayez Baobab sans installation sur **[baobablang.dev](https://baobablang.dev)** :
+Essayez Baobab sans installation sur **[baobablang.dev/ide](https://baobablang.dev/ide)** :
 
 - Éditeur de code complet dans le navigateur
 - Exécution en temps réel
