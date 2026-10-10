@@ -188,11 +188,11 @@ afficher(etudiant["nom"], "→", etudiant["note"], "/20")
 
 ```baobab
 classe Animal:
-    fonction nouveau(ce, nom, son):
+    fonction nouveau(nom, son):
         ce.nom = nom
         ce.son = son
 
-    fonction parler(ce):
+    fonction parler():
         afficher(ce.nom + " dit : " + ce.son)
 
 chien = Animal("Rex", "Woof!")
@@ -304,7 +304,7 @@ code --install-extension baobablang.baobab-lang
 Fonctionnalités :
 - 🎨 Coloration syntaxique complète
 - ⚡️ Bouton Run (Cmd+F5) - supporte `lire()` interactif
-- 📝 22 snippets (`fonction`, `si`, `pour`, `classe`...)
+- 📝 23 snippets (`fonction`, `si`, `pour`, `classe`...)
 - ⚙️ Indentation automatique, repli de code
 
 ---
